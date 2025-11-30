@@ -34,4 +34,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-How to make use of flexbox and how to add a favicon
+How to make use of flexbox, how to add a favicon and how to auto resize image with img{max-width: 100%}
