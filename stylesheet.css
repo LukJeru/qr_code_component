@@ -1,0 +1,59 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--background-color);
+}
+
+:root {
+  --background-color: hsl(212, 45%, 89%);
+  --card-background: hsl(0, 0%, 100%);
+  --heading: hsl(218, 44%, 22%);
+  --paragraph: hsl(216, 15%, 48%);
+}
+
+.content {
+  background-color: var(--card-background);
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.qr-code {
+  padding-top: 1rem;
+  width: 90%;
+}
+
+.qr-code img {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.content h1 {
+  padding-top: 10px;
+  width: 90%;
+  font-size: 1.2rem;
+  color: var(--heading)
+}
+
+.content p {
+  font-size: 1rem;
+  padding-bottom: 15px;
+  width: 90%;
+  color: var(--paragraph);
+}
